@@ -1,5 +1,9 @@
 require "stylesniff/version"
 
 module Stylesniff
-  # Your code goes here...
+  class Chatter
+    def say_hello
+      puts 'Sniff-Sniff'
+    end
+  end
 end

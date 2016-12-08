@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matt Wagner"]
   spec.email         = ["matt.a.wagner4@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Short Gem Summary}
+  spec.description   = %q{Long Gem Description}
+  spec.homepage      = "https://github.com/mwagz/stylesniff"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = ["stylesniff"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.13"
